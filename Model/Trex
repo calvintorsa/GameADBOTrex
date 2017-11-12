@@ -66,8 +66,9 @@ public class Trex {
            
            if((leftXKaktus>=rightX||leftX<=rightXKaktus)&&(topYKaktus>=botY||topY<=botYKaktus)){
                return true;
-           }else return false;
+           }
        }
+        return false;
        }
 }
 
